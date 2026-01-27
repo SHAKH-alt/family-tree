@@ -1,0 +1,28 @@
+ #tree{
+      border: 1px solid black;
+      padding: 2px;
+      background-color: aqua;
+    }
+    .card{
+      padding: 5px;
+      border: 1px solid black;
+    }
+    .child.card{
+      padding: 5px;
+      border: 1px solid black;
+    }
+    .clear-btn{
+  float:right;
+  background:#c00202da;
+  border:none;
+  color:white;
+  border-radius:50%;
+  width:18px;
+  height:16px;
+  cursor:pointer;
+  font-size:12px;
+}
+
+.clear-btn:hover{
+  background:#dc2626;
+}
