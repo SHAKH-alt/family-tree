@@ -45,3 +45,18 @@
     document.getElementById("tree").style.display = "none";
   }
 }
+function findMember() {
+  let res = document.getElementById("findtext").value.toString();
+  const result = lists.some(element =>{
+    if(element.name === res){
+      return true;
+    }
+    return false;
+  })
+  if (result){
+    document.getElementById("sresult").innerHTML = "Shajarada bunday shaxs mavjud";
+  }
+  else{
+    document.getElementById("sresult").innerHTML = "Shajarada bunday shaxs mavjud emas";
+  }
+}
